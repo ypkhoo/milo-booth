@@ -1,0 +1,191 @@
+@font-face {
+    font-family: imFont; 
+    src: url(GlacialIndifference-Regular.otf); 
+}
+
+@font-face {
+    font-family: imFont;
+    src: url(GlacialIndifference-Bold.otf); 
+    font-weight: bold;
+}
+
+.btn, .btn-light, .btn-lg, .btn-block {
+    font-family: imFont;
+    color: #232323; 
+    letter-spacing: 2px; 
+    border: 5px;
+    padding: 10px 45px;
+    margin: 10px 0px;
+}
+
+html {
+    background-color: #00934F;
+    font-family: imFont;
+}
+
+body {
+    max-width: 480px;
+    max-height: 100vh;
+    margin: auto;
+    background-color: #00934F;
+    overflow: hidden; 
+    font-family: imFont;
+}
+
+.top-container {
+    position: relative;
+    top: 0%;
+}
+
+.top-container img {
+    max-width: 100%;
+    margin: auto;
+    display: block
+}
+
+#data-screen img, 
+#thankyou-screen img {
+    max-width: 30%;
+    margin: auto;
+    display: block
+}
+
+#thankyou-screen .bottom-container {
+    background-color: #00934F;
+}
+
+.bottom-container {
+    position: fixed;
+    bottom: 0;
+    background-color: #00934F;
+    text-align: center;
+    max-width: 480px;
+    width: 100%; 
+    font-family: imFont;
+}
+/**
+#letsgo-btn,
+#done-btn,
+#camera-trigger-btn,
+#retake-btn,
+#likeit-btn, 
+#fb-btn, 
+#instagram-btn, 
+#homepage-btn {
+    padding: 10px 45px;
+    margin: 10px 0px;
+    color: #232323;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    font-family: imFont;
+}
+
+#letsgo-btn:focus,
+#done-btn:focus,
+#camera-trigger-btn:focus,
+#retake-btn:focus,
+#likeit-btn:focus,
+#fb-btn:focus,
+#instagram-btn:focus,
+#homepage-btn:focus {
+       box-shadow: none;
+}
+**/
+#retake-btn {
+    border-right: 1px solid #00934F;
+}
+
+#likeit-btn {
+    border-left: 1px solid #00934F;
+}
+
+#live-screen,
+#result-screen,
+#data-screen,
+#thankyou-screen {
+    display: none;
+}
+
+#result-screen {
+    position: relative;
+}
+
+#camera-video {
+    object-fit: cover;
+    transform: scale(-1,1);
+}
+
+#camera-video,
+#camera-canvas,
+#camera-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#image-overlay {
+    position: relative; 
+    width: 100%;
+    
+    top: 0;
+    left: 0; 
+}
+
+
+#result-screen #camera-image {
+    position: relative;
+}
+
+#camera-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.center {
+    justify-content: center;
+    display: flex;
+}
+
+#data-screen p {
+    color: #9c9fa5;
+    margin-bottom: 50px;
+    font-size: 1.1rem;
+}
+
+.form-control {
+    background-color: #1d253f;
+    border-radius: 50px !important;
+    height: 55px;
+    border: 0;
+    padding-left: 25px;
+}
+
+    .form-control:focus {
+        background-color: #1d253f;
+        color: #9c9fa5;
+    }
+
+.form-group {
+    margin-bottom: 30px !important;
+}
+
+#data-form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#data-screen img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#done-btn {
+    margin-top: 3%;
+}
+
+#image-picker {
+    display: none;
+}
